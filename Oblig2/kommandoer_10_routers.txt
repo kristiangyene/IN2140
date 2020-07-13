@@ -1,0 +1,15 @@
+print 1
+sett_modell 1 Cisco v10
+print 1
+sett_flag 1 0 0
+sett_flag 1 1 0
+sett_flag 1 2 1
+print 1
+finnes_rute 6 2
+finnes_rute 6 0
+finnes_rute 8 6
+finnes_rute 1 8
+legg_til_kobling 0 6
+finnes_rute 1 8
+slett_router 0
+finnes_rute 1 8
